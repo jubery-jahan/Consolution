@@ -1,0 +1,272 @@
+.theme-background-bg{
+    background-color: #1B9CE5;
+}
+
+.theme-text-bg{
+    color: #1B9CE5;
+}
+
+.heading-color{
+    color: #233E62;
+}
+
+.text-muted-color{
+    color: #8A8A8A;
+}
+
+.header-contact .col-md-2{
+    padding-left: 0;
+    padding-right: 5px;
+    text-align: right;
+}
+
+.header-icon{
+    font-size: 21px;
+}
+
+.menu-bg{
+    background-color: #0D1128;
+}
+
+.menu-search input{
+    border: 1px solid #26293E;
+}
+
+.menu-search input::placeholder{
+    color: #B7B8BF;
+}
+
+.menu-search .input-group-text{
+    position: absolute;
+    top: 5px;
+    right: 0;
+}
+
+.menu-search .input-group-text i{
+    color: #B7B8BF;
+}
+
+.carousel-caption{
+    text-align: left;
+    left: 8%;
+    top: 20%;
+}
+
+.img-part{
+    position: relative;
+}
+
+.img-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,.5);
+}
+
+.carousel-indicators [data-bs-target] {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    opacity: 1;
+}
+
+.carousel-indicators .active {
+    background-color: #1B9CE5;
+}
+
+.section-py{
+    padding: 100px 0;
+}
+
+.section-pt{
+    padding-top: 100px;
+}
+
+.feature-bg{
+    background-color: #D1EBF9;
+}
+
+.feature .feature-card:hover{
+    background-color: #1B9CE5;
+}
+
+.feature .feature-card:hover i,
+.feature .feature-card:hover h4,
+.feature .feature-card:hover p{
+    color: white;
+}
+
+.rounded-top-right{
+    border-radius: 0;
+    border-top-right-radius: 20%;
+}
+
+.border-color{
+    border: 5px solid #D1EBF9;
+}
+
+.guidance_img{
+    position: relative;
+}
+
+.guidance_img .img_banner{
+    background-image: url("../img/bg_3.jpg");
+    height: 200px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.guidance_img_overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(24,113,172,.8);
+}
+
+.guidance-catagory{
+    margin-top: -55px;
+}
+
+.guidance-catagory p{
+    position: relative;
+}
+
+.guidance-catagory p::after{
+    content: "";
+    background-color: #0b5ed7;
+    height: 2px;
+    width: 40px;
+    position: absolute;
+    top: -11px;
+    left: 0;
+}
+
+.service .col-md-4{
+    padding: 0;
+}
+
+.service .card-body:hover{
+    background-color: #1B9CE5;
+}
+
+.service .card-body:hover i,
+.service .card-body:hover h4,
+.service .card-body:hover p{
+    color: white;
+}
+
+.guidance_img_2{
+    position: relative;
+}
+
+.guidance_img_2 .img_banner_2{
+    background-image: url("../img/bg_1.jpg");
+    height: 150px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.guidance_img_overlay_2{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(24,113,172,.8);
+}
+
+.btn-bg-white{
+    background-color: white;
+}
+
+.project_img img{
+    height: 300px;
+}
+
+.project .row > * {
+    padding: 0;
+}
+
+.project_img{
+    position: relative;
+}
+
+.project_img_overlay{
+    display: none;
+}
+
+.project_img_overlay h4{
+    margin-top: 100px;
+    padding: 0 47px;
+}
+
+.project_img:hover .project_img_overlay{
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(24,113,172,.8);
+}
+
+
+.inverted-comma{
+    font-size: 50px;
+    color: #1B9CE5;
+    position: absolute;
+    top: -8px;
+    left: 160px;
+}
+
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background: #1B9CE5;
+}
+
+.footer-text-bg{
+    color: #BDBDBD;
+}
+
+.footer-text-bg2{
+    color: #EAEAEC;
+}
+
+.footer-input{
+    background-color: #393939;
+}
+
+.footer-input::placeholder{
+    color: #C4C4C4;
+    text-align: center;
+}
+
+.footer-social-icon a{
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    font-size: 20px;
+    background-color: #2E2E2E;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.footer-blog:hover{
+    color: #1B9CE3;
+}
+
+.footer-copyright{
+    margin-top: 150px;
+}
+
+.btn:hover{
+    background-color: #0b5ed7;
+    color: white;
+}
